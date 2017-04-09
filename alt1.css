@@ -1,0 +1,393 @@
+*
+{
+margin:0;
+padding:0;
+font-family: 'Open Sans', arial, sans-serif;
+}
+body
+{
+background-image:url("../Website/background1.JPG");
+background-repeat:no-repeat;
+}
+#main
+{
+width:80%;
+height:900px;
+background-color:black;
+opacity:0.98;
+margin:0 10% 0 10%;
+}
+header
+{
+height:110px;
+width:100%;
+background-color:black;
+}
+nav
+{
+height:30px;
+width:100%;
+-webkit-chrome-border:2px white;
+}
+#logo
+{
+width:80%;
+height:100px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+	font-size: 16px;
+}
+
+li {
+    float: left;
+    border-right:2px solid #bbb;
+	
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	transition:.5s background-color;
+	transition:.5s color;
+}
+li a:hover {
+    background-color: #cd9f29;
+	color: black;
+	cursor:pointer;
+}
+
+
+.active {
+    background-color: #cd9f29;
+	color:black;
+}
+#content
+{
+width:90%;
+margin:5%;
+height:650px;
+}
+
+#box1   
+{  
+width:160px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border:1px solid #fff;
+ float:left;
+ margin:2% 0 2% 2%; 
+  background:url(../Website/guru1.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;
+}
+
+#overlay1 
+{ 
+ background:rgba(0,0,0,.75);
+text-align:center;
+height:200px;
+padding:1px;
+ opacity:0;
+ cursor:pointer;
+ transition: opacity .25s ease;}
+
+#box1:hover #overlay1 
+{
+ opacity:1;
+}
+
+#box2   
+{  
+width:160px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border:1px solid #fff;
+ float:left;
+ margin:2% 0 2% 2%; 
+  background:url(../Website/guru2.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;
+}
+
+#overlay2 
+{ 
+ background:rgba(0,0,0,.75);
+text-align:center;
+height:200px;
+padding:1px;
+ opacity:0;
+ cursor:pointer;
+ transition: opacity .25s ease;}
+
+#box2:hover #overlay2 
+{
+ opacity:1;
+}
+
+#box3   
+{  
+width:160px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border:1px solid #fff;
+ float:left;
+ margin:2% 0 2% 2%; 
+  background:url(../Website/guru3.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;
+}
+
+#overlay3 
+{ 
+ background:rgba(0,0,0,.75);
+text-align:center;
+height:200px;
+padding:1px;
+ opacity:0;
+ cursor:pointer;
+ transition: opacity .25s ease;}
+
+#box3:hover #overlay3 
+{
+ opacity:1;
+}
+
+#box4   
+{  
+width:160px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border:1px solid #fff;
+ float:left;
+ margin:2% 0 2% 2%; 
+  background:url(../Website/guru4.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;
+}
+
+#overlay4 
+{ 
+ background:rgba(0,0,0,.75);
+text-align:center;
+height:200px;
+padding:1px;
+ opacity:0;
+ cursor:pointer;
+ transition: opacity .25s ease;}
+
+#box4:hover #overlay4 
+{
+ opacity:1;
+}
+
+
+#box5   
+{  
+width:160px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border:1px solid #fff;
+ float:left;
+ margin:2% 0 2% 2%; 
+  background:url(../Website/guru5.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;
+}
+
+#overlay5 
+{ 
+ background:rgba(0,0,0,.75);
+text-align:center;
+height:200px;
+padding:1px;
+ opacity:0;
+ cursor:pointer;
+ transition: opacity .25s ease;}
+
+#box5:hover #overlay5 
+{
+ opacity:1;
+}
+
+
+#box6   
+{  
+width:160px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border:1px solid #fff;
+ float:left;
+ margin:2% 0 2% 2%; 
+  background:url(../Website/guru6.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;
+}
+
+#overlay6 
+{ 
+ background:rgba(0,0,0,.75);
+text-align:center;
+height:200px;
+padding:1px;
+ opacity:0;
+ cursor:pointer;
+ transition: opacity .25s ease;}
+
+#box6:hover #overlay6 
+{
+ opacity:1;
+}
+
+
+#box7   
+{  
+width:160px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border:1px solid #fff;
+ float:left;
+ margin:2% 0 2% 2%; 
+  background:url(../Website/guru7.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;
+}
+
+#overlay7 
+{ 
+ background:rgba(0,0,0,.75);
+text-align:center;
+height:200px;
+padding:1px;
+ opacity:0;
+ cursor:pointer;
+ transition: opacity .25s ease;}
+
+#box7:hover #overlay7 
+{
+ opacity:1;
+}
+
+
+#box8   
+{  
+width:160px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border:1px solid #fff;
+ float:left;
+ margin:2% 0 2% 2%; 
+  background:url(../Website/guru8.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;
+}
+
+#overlay8 
+{ 
+ background:rgba(0,0,0,.75);
+text-align:center;
+height:200px;
+padding:1px;
+ opacity:0;
+ cursor:pointer;
+ transition: opacity .25s ease;}
+
+#box8:hover #overlay8 
+{
+ opacity:1;
+}
+
+
+#box9   
+{  
+width:160px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border:1px solid #fff;
+ float:left;
+ margin:2% 0 2% 2%; 
+  background:url(../Website/guru9.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;
+}
+
+#overlay9 
+{ 
+ background:rgba(0,0,0,.75);
+text-align:center;
+height:200px;
+padding:1px;
+ opacity:0;
+ cursor:pointer;
+ transition: opacity .25s ease;}
+
+#box9:hover #overlay9 
+{
+ opacity:1;
+}
+
+#box10   
+{  
+width:160px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border:1px solid #fff;
+ float:left;
+ margin:2% 0 2% 2%; 
+  background:url(../Website/guru10.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;
+}
+
+#overlay10 
+{ 
+ background:rgba(0,0,0,.75);
+text-align:center;
+height:200px;
+padding:1px;
+ opacity:0;
+ cursor:pointer;
+ transition: opacity .25s ease;}
+
+#box10:hover #overlay10 
+{
+ opacity:1;
+}
+#description 
+      {  font-family:Helvetica;
+	  color:white;
+	   color:rgba(255,255,255,.85);
+	   font-size:14px;
+	   }
+h4
+{
+color:#cd9f29;
+}
+
+h3
+{
+color:white;
+}
+p
+{
+color:white;
+}
